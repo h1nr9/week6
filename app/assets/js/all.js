@@ -33,5 +33,5 @@ const share_swiper = new Swiper(".shareSwiper", {
   loop: true,
 });
 
-//aos
-AOS.init();
+// // aos
+// AOS.init();
