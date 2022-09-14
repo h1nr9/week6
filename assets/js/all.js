@@ -32,7 +32,6 @@ var share_swiper = new Swiper(".shareSwiper", {
     el: ".swiper-pagination"
   },
   loop: true
-}); //aos
-
-AOS.init();
+}); // // aos
+// AOS.init();
 //# sourceMappingURL=all.js.map
