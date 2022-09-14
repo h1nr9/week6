@@ -1,0 +1,39 @@
+@mixin gradient-y($start-color: #09ACF5, $end-color: #62DB54, $start-percent: null, $end-percent: null) {
+    background-image: linear-gradient(to bottom, $start-color $start-percent, $end-color $end-percent);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+.text-gradient-y{
+    @include gradient-y;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+@mixin nav-gradient($start-color: #09ACF5 50%, $end-color: #62DB54 50%, $start-percent: null, $end-percent: null){
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(to right, $start-color $start-percent, $end-color $end-percent);
+  border-image-slice: 1;
+}
+.nav-gradient{
+  @include nav-gradient;
+}
+
+@mixin btn-gradient-y($start-color: #09ACF5, $end-color: #62DB54, $start-percent: null, $end-percent: null){
+  background: linear-gradient(104deg, $start-color $start-percent, $end-color $end-percent);
+  border: none;
+}
+.btn-gradient-y{
+  @include btn-gradient-y;
+}
+
+@mixin underline {
+  content: '';
+  position: absolute;
+  bottom: -16px;
+  width: 50px;
+  height: 3px;
+
+}

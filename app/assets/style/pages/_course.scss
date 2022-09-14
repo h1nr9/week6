@@ -1,0 +1,21 @@
+.teacher-img{
+    max-width: 100px;
+    height: 100px;
+}
+.course-info{
+    // width: 576px;
+    @media(max-width:992px){
+        // width: 288px;
+    }
+}
+.btn-outline-light:hover{
+    color: $primary;
+    border-color: $primary;
+    background-color: $gray-dark;
+}
+.course-h1{
+    font-size: 20px;
+    @media(max-width:992px){
+        font-size: 24px;
+    }
+}

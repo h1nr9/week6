@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title><%- title %></title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./assets/style/all.css" />
+  </head>
+
+  <body class="bg-gray-dark">
+ <nav class="navbar navbar-expand-lg navbar-light bg-gray-light nav-gradient sticky-top">
+      <div class="container">
+          <a href="index.html" class="logo d-block"> logo </a>
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="material-icons text-primary"> drag_handle </span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav  mb-lg-0 text-center pt-6">
+              <li class="nav-item mb-6 me-lg-12">
+                <a class="nav-link fs-md-l" aria-current="page" href="index.html"
+                  >首頁</a
+                >
+              </li>
+              <li class="nav-item mb-6 me-lg-12">
+                <a class="nav-link fs-md-l" aria-current="page" href="course.html"
+                  >課程介紹</a
+                >
+              </li>
+              <li class="nav-item d-flex justify-content-center">
+                <a class="nav-link fs-md-l" href="#">
+                  <div
+                    class="d-flex justify-content-center align-items-lg-center"
+                  >
+                    <span class="material-icons me-2"> account_circle </span>
+                    登入
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>   
+
+
+
+    <main class=""><%- contents %></main>
+
+    <footer class="bg-gray-light py-4 py-lg-6">
+      <p class="text-center font-mono text-gray-light-1 lh-sm">
+        Coding Home © 2022 All Rights Reserved
+      </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+</html>
